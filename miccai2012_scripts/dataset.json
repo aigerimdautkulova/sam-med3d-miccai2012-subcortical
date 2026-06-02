@@ -1,0 +1,114 @@
+{
+    "description": "MICCAI 2012 subcortical structure segmentation",
+    "labels": {
+        "0": "background",
+        "1": "right accumbens",
+        "2": "left accumbens",
+        "3": "right amygdala",
+        "4": "left amygdala",
+        "5": "right caudate",
+        "6": "left caudate",
+        "7": "right hippocampus",
+        "8": "left hippocampus",
+        "9": "right pallidum",
+        "10": "left pallidum",
+        "11": "right putamen",
+        "12": "left putamen",
+        "13": "right thalamus",
+        "14": "left thalamus"
+    },
+    "licence": "See MICCAI 2012 Challenge data usage terms",
+    "modality": {
+        "0": "T1"
+    },
+    "name": "MICCAI2012",
+    "numTest": 20,
+    "numTraining": 15,
+    "reference": "MICCAI 2012 Multi-Atlas Labeling Challenge",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/miccai_016.nii.gz",
+        "./imagesTs/miccai_017.nii.gz",
+        "./imagesTs/miccai_018.nii.gz",
+        "./imagesTs/miccai_019.nii.gz",
+        "./imagesTs/miccai_020.nii.gz",
+        "./imagesTs/miccai_021.nii.gz",
+        "./imagesTs/miccai_022.nii.gz",
+        "./imagesTs/miccai_023.nii.gz",
+        "./imagesTs/miccai_024.nii.gz",
+        "./imagesTs/miccai_025.nii.gz",
+        "./imagesTs/miccai_026.nii.gz",
+        "./imagesTs/miccai_027.nii.gz",
+        "./imagesTs/miccai_028.nii.gz",
+        "./imagesTs/miccai_029.nii.gz",
+        "./imagesTs/miccai_030.nii.gz",
+        "./imagesTs/miccai_031.nii.gz",
+        "./imagesTs/miccai_032.nii.gz",
+        "./imagesTs/miccai_033.nii.gz",
+        "./imagesTs/miccai_034.nii.gz",
+        "./imagesTs/miccai_035.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/miccai_001.nii.gz",
+            "label": "./labelsTr/miccai_001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_002.nii.gz",
+            "label": "./labelsTr/miccai_002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_003.nii.gz",
+            "label": "./labelsTr/miccai_003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_004.nii.gz",
+            "label": "./labelsTr/miccai_004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_005.nii.gz",
+            "label": "./labelsTr/miccai_005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_006.nii.gz",
+            "label": "./labelsTr/miccai_006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_007.nii.gz",
+            "label": "./labelsTr/miccai_007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_008.nii.gz",
+            "label": "./labelsTr/miccai_008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_009.nii.gz",
+            "label": "./labelsTr/miccai_009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_010.nii.gz",
+            "label": "./labelsTr/miccai_010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_011.nii.gz",
+            "label": "./labelsTr/miccai_011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_012.nii.gz",
+            "label": "./labelsTr/miccai_012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_013.nii.gz",
+            "label": "./labelsTr/miccai_013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_014.nii.gz",
+            "label": "./labelsTr/miccai_014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/miccai_015.nii.gz",
+            "label": "./labelsTr/miccai_015.nii.gz"
+        }
+    ]
+}
