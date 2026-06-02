@@ -1,3 +1,13 @@
+## MICCAI 2012 Subcortical Segmentation
+
+This fork adds a small set of scripts for preparing and evaluating the public MICCAI 2012 Multi-Atlas Labeling Challenge dataset for subcortical structure segmentation with SAM-Med3D.
+
+The added files are located in:
+
+```text
+miccai2012_scripts/
+
+
 # SAM-Med3D \[[Paper](https://arxiv.org/abs/2310.15161)] \[[Suppl](https://github.com/uni-medical/SAM-Med3D/blob/main/paper/SAM_Med3D_ECCV_Supplementary.pdf)\] \[[Data](https://huggingface.co/datasets/blueyo0/SA-Med3D-140K)\]
 [![x](https://img.shields.io/badge/cs.CV-2310.15161-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2310.15161)
 [![x](https://img.shields.io/badge/WeChat-Group-green?logo=wechat)](https://github.com/uni-medical/SAM-Med3D/tree/main?tab=readme-ov-file#-discussion-group)
