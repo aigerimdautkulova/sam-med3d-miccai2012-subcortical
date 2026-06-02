@@ -9,6 +9,11 @@ miccai2012_scripts/
 ├── dataset.json
 ├── extract_labels.py
 └── evaluation_MICCAI.py
+```
+
+These scripts are independent additions for MICCAI 2012 experiments and do not include the dataset, trained models, private data, or confidential implementation details.
+
+---
 
 
 # SAM-Med3D \[[Paper](https://arxiv.org/abs/2310.15161)] \[[Suppl](https://github.com/uni-medical/SAM-Med3D/blob/main/paper/SAM_Med3D_ECCV_Supplementary.pdf)\] \[[Data](https://huggingface.co/datasets/blueyo0/SA-Med3D-140K)\]
